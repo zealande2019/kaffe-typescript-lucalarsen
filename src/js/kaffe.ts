@@ -6,7 +6,7 @@ export abstract class Kaffe{
         return "mild";
     }
     
-    constructor(Rabat: number){
+    constructor(Rabat: number = 0){
         this._rabat = Rabat;
     }
 }

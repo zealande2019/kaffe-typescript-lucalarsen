@@ -1,12 +1,9 @@
-interface Person {
-    firstName: string;
-    lastName: string;
-}
+import{ Kaffe } from "./kaffe";
+import { IMælk } from "./Imælk";
+import { Cortado } from "./Cortado"
 
-function greeter(person: Person): string {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-let user: Person = { firstName: "John", lastName: "Doe" };
-
-let element: HTMLDivElement = <HTMLDivElement> document.getElementById("content");
-element.innerHTML = greeter(user);
+let cortado = new Cortado();
+console.log(cortado.Styrke);
+console.log(cortado.Pris);
+console.log(cortado._rabat);
+console.log(cortado.mlMælk);
