@@ -8,4 +8,5 @@ export class Latte extends Kaffe implements IMælk{
     Pris(pris: number):void{
         40;
     }
+    
 }
